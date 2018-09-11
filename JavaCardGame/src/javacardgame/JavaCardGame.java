@@ -18,6 +18,13 @@ public class JavaCardGame {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        CardConstructor firstPokemon = new CardConstructor("Jytte", 12, 50, 20);
+        System.out.print(firstPokemon.name);
+        //cardCreator("Jytte", 12, 50, 20);
     }
+    
+    
+  
     
 }
