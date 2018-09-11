@@ -22,7 +22,11 @@ public class CardConstructor {
         this.name = pokemonName;
         this.attack = attackPoints;
         this.defence = defencePoints;
-        this.health = healthPoints;       
+        this.health = healthPoints;
+        
+
+ 
+        
         
     }
     
