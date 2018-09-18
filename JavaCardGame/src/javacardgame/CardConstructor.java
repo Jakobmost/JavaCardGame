@@ -24,10 +24,6 @@ public class CardConstructor {
         this.defence = defencePoints;
         this.health = healthPoints;
         
-
- 
-        
-        
     }
     
     
