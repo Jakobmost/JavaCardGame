@@ -4,8 +4,10 @@
  * and open the template in the editor.
  */
 package javacardgame;
+import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
+import static javacardgame.PokemonCreater.pokemonCreate;
 
 /**
  *
@@ -18,7 +20,8 @@ public class JavaCardGame {
     /** 
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        pokemonCreate();
         // TODO code application logic here
         Random rand = new Random();
         String[] name = {"John", "Marcus", "Susan", "Henry", "Adam"};
@@ -100,7 +103,7 @@ public class JavaCardGame {
             
             
         }
-
+        
         //System.out.print(cards[i].attack);
         //cardCreator("Jytte", 12, 50, 20);
     }
